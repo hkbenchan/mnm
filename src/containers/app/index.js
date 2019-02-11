@@ -4,6 +4,7 @@ import Home from '../home'
 import About from '../about'
 
 import Header from '../../components/header'
+import Footer from '../../components/footer'
 import Loader from '../../components/loader'
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
           <Route exact path="/about-us" component={About} />
         </Switch>
       </main>
+      <Footer />
     </div>
   </Suspense>
 )
