@@ -11,7 +11,7 @@ class Footer extends PureComponent {
     const { t } = this.props
 
     return (
-      <Flex p={1}>
+      <Flex p={1} className='footer'>
         <Flex w={1} p={1} align='center' column>
           <h2>{ t('nav.contact') }</h2>
           <ul>
