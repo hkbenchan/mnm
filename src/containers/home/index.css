@@ -1,0 +1,8 @@
+#banner {
+  display: flex;
+}
+
+#banner-wrapper, .features-box {
+  background-color: white;
+  border-radius: 6px;
+}

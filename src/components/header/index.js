@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { withTranslation } from 'react-i18next'
+import { Flex, Box } from 'reflexbox'
 import './index.css'
 
 class Header extends PureComponent {
@@ -13,38 +14,42 @@ class Header extends PureComponent {
   }
 
   render() {
-    const { t } = this.props
+    const { t, router: { location } } = this.props
 
     return (
       <header id='header'>
         {/* logo */}
-        <div id='logo'>
-          <Link to='/'>
-            <img alt='logo'
-              src='images/logo_transparent.png'
-              width='100%'
-              height='100%'
-              style={{
-                maxHeight: '205px',
-                maxWidth: '385px'
-              }}
-            />
-          </Link>
-        </div>
-				{/* nav */}
-        <nav id='nav'>
-          <ul>
-            <li><Link to='/'>{ t('nav.home') }</Link></li>
-            <li><Link to='/projects'>{ t('nav.projects') }</Link></li>
-            <li><Link to='/contact'>{ t('nav.contact') }</Link></li>
-            <li><button onClick={this.updateLanguage}>{ t('nav.changeLang') }</button></li>
-          </ul>
-        </nav>
+        <Flex p={1} justify='space-between'>
+          <Box w={1/2} p={1}>
+            <div id='logo'>
+              <Link to='/'>
+                <img alt='logo'
+                  src='images/logo_transparent.png'
+                  width='50%'
+                  height='50%'
+                />
+              </Link>
+            </div>
+          </Box>
+  				{/* nav */}
+          <Flex w={1/2}>
+            <nav id='nav'>
+              <ul>
+                <li><Link to='/'>{ t('nav.home') }</Link></li>
+                <li><Link to='/projects'>{ t('nav.projects') }</Link></li>
+                {/* <li><Link to='/contact'>{ t('nav.contact') }</Link></li> */}
+                <li><Link to='#' onClick={this.updateLanguage}>{ t('nav.changeLang') }</Link></li>
+              </ul>
+            </nav>
+          </Flex>
+        </Flex>
       </header>
     )
   }
 }
 
-const mapStateToProps = (state) => state
+const mapStateToProps = (state) => ({
+  router: state.router
+})
 
 export default withTranslation()(connect(mapStateToProps)(Header))

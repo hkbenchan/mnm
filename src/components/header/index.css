@@ -1,0 +1,18 @@
+#nav ul li {
+  list-style: none;
+}
+
+#logo img {
+    max-width: 385px;
+    max-height: 205px;
+}
+
+#nav {
+  width: 80%;
+}
+
+#nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
