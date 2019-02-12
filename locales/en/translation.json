@@ -17,11 +17,41 @@
     "readmore": "Read More",
     "practicekindness": {
       "title": "Practice Kindness",
-      "description": "\"Practice Kindness\" (PK) is M&M's first organised community activity, inspired by a group in America that started the movement/concept. M&M group members will pay for random shoppers..."
+      "description": "\"Practice Kindness\" (PK) is M&M's first organised community activity, inspired by a group in America that started the movement/concept. M&M group members will pay for random shoppers...",
+      "content": {
+        "1": "\"Practice Kindness\" (PK) is M&M's first organised community activity, inspired by a group in America that started the movement/concept ",
+        "2": "(Facebook Page)",
+        "3": ". M&M group members will pay for random shoppers at different shops. Through PK we hope to \"Lead by Doing. Inspire from the Heart\" and spread the PK spirit.",
+        "4": "PK members will form flashmob groups and pay for all the people in-line, targeting at random any and everyone regardless of age, gender and nationality. Members of PK will explain our mission to those in line, as well as handing out a card with the PK and ",
+        "5": "M&M website",
+        "6": " and ",
+        "7": "Facebook page",
+        "8": ", so they can find out more about what we do and more importantly why we do what we do, and to encourage them to take action to serve others, and to pass on the PK message figuratively and literally.",
+        "9": "PK is not a charity act to help the underprivileged, instead the aim is to embody the selfless serving spirit and inspire those involved with activity, and through our actions remind and motivate people to give back to society, and to continue and spread the PK spirit."
+      }
     },
     "minggor": {
       "title": "Ming Gor \"Lunch box\" distribution action",
-      "description": "Keith Leung\nAlthough we gave out dinner boxes to street-sleepers, the distribution itself is not a mercy event. It is more like redistributing resources to those in need rather than \"helping them\" from a higher position. When some street-sleepers wanted to cut the line..."
+      "description": "Keith Leung\nAlthough we gave out dinner boxes to street-sleepers, the distribution itself is not a mercy event. It is more like redistributing resources to those in need rather than \"helping them\" from a higher position. When some street-sleepers wanted to cut the line...",
+      "content": {
+        "keith": {
+          "name": "Keith Leung",
+          "1": "The dinner box was served with a bottled drink, a fruit, and respect.",
+          "2": "Regular dinner box distribution attracts some non-street-sleepers to ask for a share. To distinguish these people from street-sleepers and therefore give the resource to those who need the most, a person who knows all of them is needed. Knowing every street-sleeper is not an easy task --  you need to pay attention to all of them during the dinner box distribution, but not just simply drop and go; you also need to treat them with respect from your heart since they can tell. Although this is challenging, luckily we have Ming Gor, the organizer of the event, to play this role for years.",
+          "3": "Although we gave out dinner boxes to street-sleepers, the distribution itself is not a mercy event. It is more like redistributing resources to those in need rather than \"helping them\" from a higher position. When some street-sleepers wanted to cut the line, Ming Gor would force them not to do so. There was no extra tolerance, pitiability or mercy due to their identity of street-sleepers. Food can fill their stomach up but not their soul if we treat them without being humble. Sometimes they just want to be regarded as anyone else in the society, but not ones with the stamp of \"wretch\"."
+        },
+        "jimmy": {
+          "name": "Jimmy Lam",
+          "1": "We deliver meals to the homeless with Ming Gor and different groups of volunteers every Saturday night. Although we don’t know one another before the event, we are like a big family to send our love to the homeless in Sham Shui Po. The smiles from them have made us realize that the feeling of helping people is wonderful.",
+          "2": "Each of us can lean from Ming Gor to encourage and motivate people surrounding us to care the community. Let’s pass our love to make the society better!"
+        },
+        "vincci": {
+          "name": "Vincci Hui",
+          "1": "",
+          "2": "",
+          "3": ""
+        }
+      }
     }
   }
 }
